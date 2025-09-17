@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tinylog"
+version = "0.1.0"
+description = "tinylog is a Python logging extension that shrinks verbose logs into compact, readable messages."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
