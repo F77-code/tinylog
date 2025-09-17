@@ -1,2 +1,5 @@
 # tinylog
-logzip is a Python logging extension that compresses and shortens verbose log messages. It’s designed to shrink large SQL queries and repetitive data while keeping them readable. Works as a decorator for logger methods, saves disk space, and improves log clarity.
+
+**tinylog** is a Python logging extension that shrinks verbose logs into compact, readable messages.  
+Optimized for heavy SQL queries and large payloads, it trims redundant fields, compresses patterns,  
+and integrates seamlessly with the standard `logging` module via decorators.
